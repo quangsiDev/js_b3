@@ -15,12 +15,24 @@
     />
   </head>
   <body class="container">
+    <!-- ex1 -->
     <h2>Tính tiền phạt</h2>
     <input type="text" class="form-control" id="tien-muon" placeholder="Tiền mượn" />
     <input type="text" class="form-control" id="tien-tra" placeholder="Tiền trả" />
     <button onclick="tinhTienPhat()" class="btn btn-danger">Tính tiền</button>
-
     <h2 class="text-primary" id="result"></h2>
+
+    <!-- ex2 -->
+    <h2>Tính tiền lương</h2>
+    <input type="text" class="form-control" id="luong-moi-gio" placeholder="Lương mỗi giờ" />
+    <input type="text" class="form-control" id="so-gio-lam" placeholder="Số giờ làm" />
+    <button onclick="tinhTienLuong()" class="btn btn-danger">Tính tiền</button>
+    <!-- ex3 -->
+    <input type="text" class="form-control" id="diem-toan" placeholder="Toán" />
+    <input type="text" class="form-control" id="diem-ly" placeholder="Lý" />
+    <input type="text" class="form-control" id="diem-hoa" placeholder="Hoá" />
+    <button onclick="xepLoai()" class="btn btn-danger">Xếp loại</button>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

@@ -19,9 +19,9 @@ console.log("😀 - ss4", ss4);
 var ss5 = 14 <= 14;
 var ss6 = 15 >= 12;
 
-//  đúng hết 3/3 tiêu chí => pass
+//  đúng hết 3/3 tiêu chí => pass => so sánh &&
 
-// đúng 1/3 tiêu chí => pass
+// đúng 1/3 tiêu chí => pass => so sánh ||
 
 // phép so sánh AND ( && ) ~ chỉ true khi tất cả đều true
 // var ss7 = 2 > 1 && 2 > 3;
@@ -59,3 +59,37 @@ if (!isLogin) {
   console.log("Đăng kí thất bại !!!");
 }
 console.log("-----");
+
+/**
+ Cấu trúc điều khiện
+
+ if( điều kiện )
+   {
+    hành động 1
+   }else {
+    hành động 2
+   }
+  //  so sánh 2 số có dùng được if else ko ? => lớn, bé , bằng => ko dùng được
+
+ */
+
+isValid = true;
+
+if (isValid) {
+  console.log("Login success");
+} else {
+  console.log("Login fail");
+}
+
+// else if => áp dụng khi có 3 trường hợp trở lên
+
+var n1 = 2;
+var n2 = 5;
+
+if (n1 > n2) {
+  console.log("n1 lớn hơn");
+} else if (n1 < n2) {
+  console.log("n1 bé hơn");
+} else {
+  console.log("n1 bằng n2");
+}
