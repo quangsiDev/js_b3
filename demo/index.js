@@ -93,3 +93,40 @@ if (n1 > n2) {
 } else {
   console.log("n1 bằng n2");
 }
+
+// toán tử 3 ngôi
+isValid = true;
+// var message = "";
+// if (isValid) {
+//   message = "success";
+// } else {
+//   message = "fail";
+// }
+var message = isValid == true ? "success" : "fail";
+console.log("😀 - message", message);
+
+// switch case ~"Chỉ" so sánh bằng
+
+var luaChon = "baooooo";
+
+switch (luaChon) {
+  case "búa": {
+    console.log("user chọn búa");
+    break;
+  }
+  case "kéo": {
+    console.log("user chọn kéo");
+    break;
+  }
+  case "bao": {
+    console.log("user chọn bao");
+    break;
+  }
+  default: {
+    console.log("Lựa chọn không hợp lệ");
+  }
+}
+// xếp loại học sinh bằng witch case
+
+// dc 1
+// ko dc 0
